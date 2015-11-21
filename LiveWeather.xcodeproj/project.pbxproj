@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E34BFD81BFEEA6300E566C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E34BFD71BFEEA6300E566C8 /* main.m */; };
+		4E34BFDB1BFEEA6300E566C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E34BFDA1BFEEA6300E566C8 /* AppDelegate.m */; };
+		4E34BFDE1BFEEA6300E566C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E34BFDD1BFEEA6300E566C8 /* ViewController.m */; };
+		4E34BFE11BFEEA6300E566C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E34BFDF1BFEEA6300E566C8 /* Main.storyboard */; };
+		4E34BFE31BFEEA6300E566C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E34BFE21BFEEA6300E566C8 /* Assets.xcassets */; };
+		4E34BFE61BFEEA6300E566C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E34BFE41BFEEA6300E566C8 /* LaunchScreen.storyboard */; };
+		4E34BFEB1BFEEA6400E566C8 /* LiveWeather WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4E34BFEA1BFEEA6400E566C8 /* LiveWeather WatchKit App.app */; };
+		4E34BFF11BFEEA6400E566C8 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E34BFEF1BFEEA6400E566C8 /* Interface.storyboard */; };
+		4E34BFF31BFEEA6400E566C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E34BFF21BFEEA6400E566C8 /* Assets.xcassets */; };
+		4E34BFFA1BFEEA6400E566C8 /* LiveWeather WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4E34BFF91BFEEA6400E566C8 /* LiveWeather WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4E34C0021BFEEA6400E566C8 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E34C0011BFEEA6400E566C8 /* InterfaceController.m */; };
+		4E34C0051BFEEA6400E566C8 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E34C0041BFEEA6400E566C8 /* ExtensionDelegate.m */; };
+		4E34C0081BFEEA6400E566C8 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E34C0071BFEEA6400E566C8 /* NotificationController.m */; };
+		4E34C00B1BFEEA6400E566C8 /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E34C00A1BFEEA6400E566C8 /* GlanceController.m */; };
+		4E34C00D1BFEEA6400E566C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E34C00C1BFEEA6400E566C8 /* Assets.xcassets */; };
+		4E34C01E1BFEEC1B00E566C8 /* YQL.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E34C01D1BFEEC1B00E566C8 /* YQL.m */; };
+		4E34C0211BFEF4FC00E566C8 /* InterfaceController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E34C0201BFEF4FC00E566C8 /* InterfaceController1.m */; };
+		4E34C0241BFEF73800E566C8 /* InterfaceController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E34C0231BFEF73800E566C8 /* InterfaceController2.m */; };
+		4E34C0271BFF449000E566C8 /* InterfaceController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E34C0261BFF449000E566C8 /* InterfaceController3.m */; };
+		4E34C02A1BFF44A700E566C8 /* InterfaceController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E34C0291BFF44A700E566C8 /* InterfaceController4.m */; };
+		4E34C02D1BFF44B600E566C8 /* InterfaceController5.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E34C02C1BFF44B600E566C8 /* InterfaceController5.m */; };
+		4E34C0301BFF44C900E566C8 /* InterfaceController6.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E34C02F1BFF44C900E566C8 /* InterfaceController6.m */; };
+		4E34C0331BFF44D200E566C8 /* InterfaceController7.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E34C0321BFF44D200E566C8 /* InterfaceController7.m */; };
+		4E34C0361BFF44DD00E566C8 /* InterfaceController8.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E34C0351BFF44DD00E566C8 /* InterfaceController8.m */; };
+		4E34C0391BFF44E700E566C8 /* InterfaceController9.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E34C0381BFF44E700E566C8 /* InterfaceController9.m */; };
+		4E34C03B1BFF516F00E566C8 /* yahoo1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4E34C03A1BFF516F00E566C8 /* yahoo1.jpeg */; };
+		4E34C03E1BFF537100E566C8 /* InterfaceController10.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E34C03D1BFF537100E566C8 /* InterfaceController10.m */; };
+		4E34C0411BFF537C00E566C8 /* InterfaceController11.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E34C0401BFF537C00E566C8 /* InterfaceController11.m */; };
+		4E34C0441BFF539A00E566C8 /* InterfaceController12.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E34C0431BFF539A00E566C8 /* InterfaceController12.m */; };
+		4E34C0471BFF53EA00E566C8 /* InterfaceController13.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E34C0461BFF53EA00E566C8 /* InterfaceController13.m */; };
+		4E34C04A1BFF53F400E566C8 /* InterfaceController14.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E34C0491BFF53F400E566C8 /* InterfaceController14.m */; };
+		4E34C04D1BFF53FC00E566C8 /* InterfaceController15.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E34C04C1BFF53FC00E566C8 /* InterfaceController15.m */; };
+		4E34C0501BFF540600E566C8 /* InterfaceController16.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E34C04F1BFF540600E566C8 /* InterfaceController16.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E34BFEC1BFEEA6400E566C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E34BFCB1BFEEA6300E566C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E34BFE91BFEEA6400E566C8;
+			remoteInfo = "LiveWeather WatchKit App";
+		};
+		4E34BFFB1BFEEA6400E566C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E34BFCB1BFEEA6300E566C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E34BFF81BFEEA6400E566C8;
+			remoteInfo = "LiveWeather WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4E34C0141BFEEA6400E566C8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4E34BFFA1BFEEA6400E566C8 /* LiveWeather WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E34C0181BFEEA6400E566C8 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4E34BFEB1BFEEA6400E566C8 /* LiveWeather WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4E34BFD31BFEEA6300E566C8 /* LiveWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E34BFD71BFEEA6300E566C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E34BFD91BFEEA6300E566C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E34BFDA1BFEEA6300E566C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E34BFDC1BFEEA6300E566C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4E34BFDD1BFEEA6300E566C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4E34BFE01BFEEA6300E566C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E34BFE21BFEEA6300E566C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E34BFE51BFEEA6300E566C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E34BFE71BFEEA6300E566C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E34BFEA1BFEEA6400E566C8 /* LiveWeather WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LiveWeather WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E34BFF01BFEEA6400E566C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		4E34BFF21BFEEA6400E566C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E34BFF41BFEEA6400E566C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E34BFF91BFEEA6400E566C8 /* LiveWeather WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "LiveWeather WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E34BFFF1BFEEA6400E566C8 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		4E34C0001BFEEA6400E566C8 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		4E34C0011BFEEA6400E566C8 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		4E34C0031BFEEA6400E566C8 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		4E34C0041BFEEA6400E566C8 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		4E34C0061BFEEA6400E566C8 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		4E34C0071BFEEA6400E566C8 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		4E34C0091BFEEA6400E566C8 /* GlanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlanceController.h; sourceTree = "<group>"; };
+		4E34C00A1BFEEA6400E566C8 /* GlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceController.m; sourceTree = "<group>"; };
+		4E34C00C1BFEEA6400E566C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E34C00E1BFEEA6400E566C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E34C01C1BFEEC1B00E566C8 /* YQL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQL.h; sourceTree = "<group>"; };
+		4E34C01D1BFEEC1B00E566C8 /* YQL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQL.m; sourceTree = "<group>"; };
+		4E34C01F1BFEF4FC00E566C8 /* InterfaceController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceController1.h; sourceTree = "<group>"; };
+		4E34C0201BFEF4FC00E566C8 /* InterfaceController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterfaceController1.m; sourceTree = "<group>"; };
+		4E34C0221BFEF73800E566C8 /* InterfaceController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceController2.h; sourceTree = "<group>"; };
+		4E34C0231BFEF73800E566C8 /* InterfaceController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterfaceController2.m; sourceTree = "<group>"; };
+		4E34C0251BFF449000E566C8 /* InterfaceController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceController3.h; sourceTree = "<group>"; };
+		4E34C0261BFF449000E566C8 /* InterfaceController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterfaceController3.m; sourceTree = "<group>"; };
+		4E34C0281BFF44A700E566C8 /* InterfaceController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceController4.h; sourceTree = "<group>"; };
+		4E34C0291BFF44A700E566C8 /* InterfaceController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterfaceController4.m; sourceTree = "<group>"; };
+		4E34C02B1BFF44B600E566C8 /* InterfaceController5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceController5.h; sourceTree = "<group>"; };
+		4E34C02C1BFF44B600E566C8 /* InterfaceController5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterfaceController5.m; sourceTree = "<group>"; };
+		4E34C02E1BFF44C900E566C8 /* InterfaceController6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceController6.h; sourceTree = "<group>"; };
+		4E34C02F1BFF44C900E566C8 /* InterfaceController6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterfaceController6.m; sourceTree = "<group>"; };
+		4E34C0311BFF44D200E566C8 /* InterfaceController7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceController7.h; sourceTree = "<group>"; };
+		4E34C0321BFF44D200E566C8 /* InterfaceController7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterfaceController7.m; sourceTree = "<group>"; };
+		4E34C0341BFF44DD00E566C8 /* InterfaceController8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceController8.h; sourceTree = "<group>"; };
+		4E34C0351BFF44DD00E566C8 /* InterfaceController8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterfaceController8.m; sourceTree = "<group>"; };
+		4E34C0371BFF44E700E566C8 /* InterfaceController9.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceController9.h; sourceTree = "<group>"; };
+		4E34C0381BFF44E700E566C8 /* InterfaceController9.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterfaceController9.m; sourceTree = "<group>"; };
+		4E34C03A1BFF516F00E566C8 /* yahoo1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yahoo1.jpeg; sourceTree = "<group>"; };
+		4E34C03C1BFF537100E566C8 /* InterfaceController10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceController10.h; sourceTree = "<group>"; };
+		4E34C03D1BFF537100E566C8 /* InterfaceController10.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterfaceController10.m; sourceTree = "<group>"; };
+		4E34C03F1BFF537C00E566C8 /* InterfaceController11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceController11.h; sourceTree = "<group>"; };
+		4E34C0401BFF537C00E566C8 /* InterfaceController11.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterfaceController11.m; sourceTree = "<group>"; };
+		4E34C0421BFF539A00E566C8 /* InterfaceController12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceController12.h; sourceTree = "<group>"; };
+		4E34C0431BFF539A00E566C8 /* InterfaceController12.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterfaceController12.m; sourceTree = "<group>"; };
+		4E34C0451BFF53EA00E566C8 /* InterfaceController13.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceController13.h; sourceTree = "<group>"; };
+		4E34C0461BFF53EA00E566C8 /* InterfaceController13.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterfaceController13.m; sourceTree = "<group>"; };
+		4E34C0481BFF53F400E566C8 /* InterfaceController14.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceController14.h; sourceTree = "<group>"; };
+		4E34C0491BFF53F400E566C8 /* InterfaceController14.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterfaceController14.m; sourceTree = "<group>"; };
+		4E34C04B1BFF53FC00E566C8 /* InterfaceController15.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceController15.h; sourceTree = "<group>"; };
+		4E34C04C1BFF53FC00E566C8 /* InterfaceController15.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterfaceController15.m; sourceTree = "<group>"; };
+		4E34C04E1BFF540600E566C8 /* InterfaceController16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceController16.h; sourceTree = "<group>"; };
+		4E34C04F1BFF540600E566C8 /* InterfaceController16.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterfaceController16.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E34BFD01BFEEA6300E566C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E34BFF61BFEEA6400E566C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E34BFCA1BFEEA6300E566C8 = {
+			isa = PBXGroup;
+			children = (
+				4E34BFD51BFEEA6300E566C8 /* LiveWeather */,
+				4E34BFEE1BFEEA6400E566C8 /* LiveWeather WatchKit App */,
+				4E34BFFD1BFEEA6400E566C8 /* LiveWeather WatchKit Extension */,
+				4E34BFD41BFEEA6300E566C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E34BFD41BFEEA6300E566C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E34BFD31BFEEA6300E566C8 /* LiveWeather.app */,
+				4E34BFEA1BFEEA6400E566C8 /* LiveWeather WatchKit App.app */,
+				4E34BFF91BFEEA6400E566C8 /* LiveWeather WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E34BFD51BFEEA6300E566C8 /* LiveWeather */ = {
+			isa = PBXGroup;
+			children = (
+				4E34BFD91BFEEA6300E566C8 /* AppDelegate.h */,
+				4E34BFDA1BFEEA6300E566C8 /* AppDelegate.m */,
+				4E34BFDC1BFEEA6300E566C8 /* ViewController.h */,
+				4E34BFDD1BFEEA6300E566C8 /* ViewController.m */,
+				4E34BFDF1BFEEA6300E566C8 /* Main.storyboard */,
+				4E34BFE21BFEEA6300E566C8 /* Assets.xcassets */,
+				4E34BFE41BFEEA6300E566C8 /* LaunchScreen.storyboard */,
+				4E34BFE71BFEEA6300E566C8 /* Info.plist */,
+				4E34BFD61BFEEA6300E566C8 /* Supporting Files */,
+			);
+			path = LiveWeather;
+			sourceTree = "<group>";
+		};
+		4E34BFD61BFEEA6300E566C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E34BFD71BFEEA6300E566C8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E34BFEE1BFEEA6400E566C8 /* LiveWeather WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				4E34BFEF1BFEEA6400E566C8 /* Interface.storyboard */,
+				4E34C03A1BFF516F00E566C8 /* yahoo1.jpeg */,
+				4E34BFF21BFEEA6400E566C8 /* Assets.xcassets */,
+				4E34BFF41BFEEA6400E566C8 /* Info.plist */,
+			);
+			path = "LiveWeather WatchKit App";
+			sourceTree = "<group>";
+		};
+		4E34BFFD1BFEEA6400E566C8 /* LiveWeather WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4E34C01C1BFEEC1B00E566C8 /* YQL.h */,
+				4E34C01D1BFEEC1B00E566C8 /* YQL.m */,
+				4E34C0001BFEEA6400E566C8 /* InterfaceController.h */,
+				4E34C0011BFEEA6400E566C8 /* InterfaceController.m */,
+				4E34C01F1BFEF4FC00E566C8 /* InterfaceController1.h */,
+				4E34C0201BFEF4FC00E566C8 /* InterfaceController1.m */,
+				4E34C0221BFEF73800E566C8 /* InterfaceController2.h */,
+				4E34C0231BFEF73800E566C8 /* InterfaceController2.m */,
+				4E34C0251BFF449000E566C8 /* InterfaceController3.h */,
+				4E34C0261BFF449000E566C8 /* InterfaceController3.m */,
+				4E34C0281BFF44A700E566C8 /* InterfaceController4.h */,
+				4E34C0291BFF44A700E566C8 /* InterfaceController4.m */,
+				4E34C02B1BFF44B600E566C8 /* InterfaceController5.h */,
+				4E34C02C1BFF44B600E566C8 /* InterfaceController5.m */,
+				4E34C02E1BFF44C900E566C8 /* InterfaceController6.h */,
+				4E34C02F1BFF44C900E566C8 /* InterfaceController6.m */,
+				4E34C0311BFF44D200E566C8 /* InterfaceController7.h */,
+				4E34C0321BFF44D200E566C8 /* InterfaceController7.m */,
+				4E34C0341BFF44DD00E566C8 /* InterfaceController8.h */,
+				4E34C0351BFF44DD00E566C8 /* InterfaceController8.m */,
+				4E34C0371BFF44E700E566C8 /* InterfaceController9.h */,
+				4E34C0381BFF44E700E566C8 /* InterfaceController9.m */,
+				4E34C03C1BFF537100E566C8 /* InterfaceController10.h */,
+				4E34C03D1BFF537100E566C8 /* InterfaceController10.m */,
+				4E34C03F1BFF537C00E566C8 /* InterfaceController11.h */,
+				4E34C0401BFF537C00E566C8 /* InterfaceController11.m */,
+				4E34C0421BFF539A00E566C8 /* InterfaceController12.h */,
+				4E34C0431BFF539A00E566C8 /* InterfaceController12.m */,
+				4E34C0451BFF53EA00E566C8 /* InterfaceController13.h */,
+				4E34C0461BFF53EA00E566C8 /* InterfaceController13.m */,
+				4E34C0481BFF53F400E566C8 /* InterfaceController14.h */,
+				4E34C0491BFF53F400E566C8 /* InterfaceController14.m */,
+				4E34C04B1BFF53FC00E566C8 /* InterfaceController15.h */,
+				4E34C04C1BFF53FC00E566C8 /* InterfaceController15.m */,
+				4E34C04E1BFF540600E566C8 /* InterfaceController16.h */,
+				4E34C04F1BFF540600E566C8 /* InterfaceController16.m */,
+				4E34C0031BFEEA6400E566C8 /* ExtensionDelegate.h */,
+				4E34C0041BFEEA6400E566C8 /* ExtensionDelegate.m */,
+				4E34C0061BFEEA6400E566C8 /* NotificationController.h */,
+				4E34C0071BFEEA6400E566C8 /* NotificationController.m */,
+				4E34C0091BFEEA6400E566C8 /* GlanceController.h */,
+				4E34C00A1BFEEA6400E566C8 /* GlanceController.m */,
+				4E34C00C1BFEEA6400E566C8 /* Assets.xcassets */,
+				4E34C00E1BFEEA6400E566C8 /* Info.plist */,
+				4E34BFFE1BFEEA6400E566C8 /* Supporting Files */,
+			);
+			path = "LiveWeather WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		4E34BFFE1BFEEA6400E566C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E34BFFF1BFEEA6400E566C8 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E34BFD21BFEEA6300E566C8 /* LiveWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E34C0191BFEEA6400E566C8 /* Build configuration list for PBXNativeTarget "LiveWeather" */;
+			buildPhases = (
+				4E34BFCF1BFEEA6300E566C8 /* Sources */,
+				4E34BFD01BFEEA6300E566C8 /* Frameworks */,
+				4E34BFD11BFEEA6300E566C8 /* Resources */,
+				4E34C0181BFEEA6400E566C8 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E34BFED1BFEEA6400E566C8 /* PBXTargetDependency */,
+			);
+			name = LiveWeather;
+			productName = LiveWeather;
+			productReference = 4E34BFD31BFEEA6300E566C8 /* LiveWeather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E34BFE91BFEEA6400E566C8 /* LiveWeather WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E34C0151BFEEA6400E566C8 /* Build configuration list for PBXNativeTarget "LiveWeather WatchKit App" */;
+			buildPhases = (
+				4E34BFE81BFEEA6400E566C8 /* Resources */,
+				4E34C0141BFEEA6400E566C8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E34BFFC1BFEEA6400E566C8 /* PBXTargetDependency */,
+			);
+			name = "LiveWeather WatchKit App";
+			productName = "LiveWeather WatchKit App";
+			productReference = 4E34BFEA1BFEEA6400E566C8 /* LiveWeather WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		4E34BFF81BFEEA6400E566C8 /* LiveWeather WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E34C0111BFEEA6400E566C8 /* Build configuration list for PBXNativeTarget "LiveWeather WatchKit Extension" */;
+			buildPhases = (
+				4E34BFF51BFEEA6400E566C8 /* Sources */,
+				4E34BFF61BFEEA6400E566C8 /* Frameworks */,
+				4E34BFF71BFEEA6400E566C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LiveWeather WatchKit Extension";
+			productName = "LiveWeather WatchKit Extension";
+			productReference = 4E34BFF91BFEEA6400E566C8 /* LiveWeather WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E34BFCB1BFEEA6300E566C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Vinod Ramanathan";
+				TargetAttributes = {
+					4E34BFD21BFEEA6300E566C8 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					4E34BFE91BFEEA6400E566C8 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					4E34BFF81BFEEA6400E566C8 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 4E34BFCE1BFEEA6300E566C8 /* Build configuration list for PBXProject "LiveWeather" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E34BFCA1BFEEA6300E566C8;
+			productRefGroup = 4E34BFD41BFEEA6300E566C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E34BFD21BFEEA6300E566C8 /* LiveWeather */,
+				4E34BFE91BFEEA6400E566C8 /* LiveWeather WatchKit App */,
+				4E34BFF81BFEEA6400E566C8 /* LiveWeather WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E34BFD11BFEEA6300E566C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E34BFE61BFEEA6300E566C8 /* LaunchScreen.storyboard in Resources */,
+				4E34BFE31BFEEA6300E566C8 /* Assets.xcassets in Resources */,
+				4E34BFE11BFEEA6300E566C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E34BFE81BFEEA6400E566C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E34C03B1BFF516F00E566C8 /* yahoo1.jpeg in Resources */,
+				4E34BFF31BFEEA6400E566C8 /* Assets.xcassets in Resources */,
+				4E34BFF11BFEEA6400E566C8 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E34BFF71BFEEA6400E566C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E34C00D1BFEEA6400E566C8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E34BFCF1BFEEA6300E566C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E34BFDE1BFEEA6300E566C8 /* ViewController.m in Sources */,
+				4E34BFDB1BFEEA6300E566C8 /* AppDelegate.m in Sources */,
+				4E34BFD81BFEEA6300E566C8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E34BFF51BFEEA6400E566C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E34C0051BFEEA6400E566C8 /* ExtensionDelegate.m in Sources */,
+				4E34C0391BFF44E700E566C8 /* InterfaceController9.m in Sources */,
+				4E34C0271BFF449000E566C8 /* InterfaceController3.m in Sources */,
+				4E34C0241BFEF73800E566C8 /* InterfaceController2.m in Sources */,
+				4E34C01E1BFEEC1B00E566C8 /* YQL.m in Sources */,
+				4E34C04D1BFF53FC00E566C8 /* InterfaceController15.m in Sources */,
+				4E34C0471BFF53EA00E566C8 /* InterfaceController13.m in Sources */,
+				4E34C03E1BFF537100E566C8 /* InterfaceController10.m in Sources */,
+				4E34C0021BFEEA6400E566C8 /* InterfaceController.m in Sources */,
+				4E34C0331BFF44D200E566C8 /* InterfaceController7.m in Sources */,
+				4E34C02A1BFF44A700E566C8 /* InterfaceController4.m in Sources */,
+				4E34C0501BFF540600E566C8 /* InterfaceController16.m in Sources */,
+				4E34C0411BFF537C00E566C8 /* InterfaceController11.m in Sources */,
+				4E34C04A1BFF53F400E566C8 /* InterfaceController14.m in Sources */,
+				4E34C0081BFEEA6400E566C8 /* NotificationController.m in Sources */,
+				4E34C0441BFF539A00E566C8 /* InterfaceController12.m in Sources */,
+				4E34C0301BFF44C900E566C8 /* InterfaceController6.m in Sources */,
+				4E34C02D1BFF44B600E566C8 /* InterfaceController5.m in Sources */,
+				4E34C00B1BFEEA6400E566C8 /* GlanceController.m in Sources */,
+				4E34C0361BFF44DD00E566C8 /* InterfaceController8.m in Sources */,
+				4E34C0211BFEF4FC00E566C8 /* InterfaceController1.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E34BFED1BFEEA6400E566C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E34BFE91BFEEA6400E566C8 /* LiveWeather WatchKit App */;
+			targetProxy = 4E34BFEC1BFEEA6400E566C8 /* PBXContainerItemProxy */;
+		};
+		4E34BFFC1BFEEA6400E566C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E34BFF81BFEEA6400E566C8 /* LiveWeather WatchKit Extension */;
+			targetProxy = 4E34BFFB1BFEEA6400E566C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E34BFDF1BFEEA6300E566C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E34BFE01BFEEA6300E566C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E34BFE41BFEEA6300E566C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E34BFE51BFEEA6300E566C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4E34BFEF1BFEEA6400E566C8 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E34BFF01BFEEA6400E566C8 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E34C00F1BFEEA6400E566C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4E34C0101BFEEA6400E566C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E34C0121BFEEA6400E566C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "LiveWeather WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acinfotech.LiveWeather.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		4E34C0131BFEEA6400E566C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "LiveWeather WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acinfotech.LiveWeather.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		4E34C0161BFEEA6400E566C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = LiveWeather_WatchKit_Extension;
+				INFOPLIST_FILE = "LiveWeather WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acinfotech.LiveWeather.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		4E34C0171BFEEA6400E566C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = LiveWeather_WatchKit_Extension;
+				INFOPLIST_FILE = "LiveWeather WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acinfotech.LiveWeather.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		4E34C01A1BFEEA6400E566C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LiveWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acinfotech.LiveWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4E34C01B1BFEEA6400E566C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LiveWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acinfotech.LiveWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E34BFCE1BFEEA6300E566C8 /* Build configuration list for PBXProject "LiveWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E34C00F1BFEEA6400E566C8 /* Debug */,
+				4E34C0101BFEEA6400E566C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E34C0111BFEEA6400E566C8 /* Build configuration list for PBXNativeTarget "LiveWeather WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E34C0121BFEEA6400E566C8 /* Debug */,
+				4E34C0131BFEEA6400E566C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4E34C0151BFEEA6400E566C8 /* Build configuration list for PBXNativeTarget "LiveWeather WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E34C0161BFEEA6400E566C8 /* Debug */,
+				4E34C0171BFEEA6400E566C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4E34C0191BFEEA6400E566C8 /* Build configuration list for PBXNativeTarget "LiveWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E34C01A1BFEEA6400E566C8 /* Debug */,
+				4E34C01B1BFEEA6400E566C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E34BFCB1BFEEA6300E566C8 /* Project object */;
+}
